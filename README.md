@@ -7,3 +7,13 @@ The frist is for the laboratory experiments performed in the flume facilities of
 
 The second corresponds to the field experiments pefromed in River Erlenbach (May 2018) and correspond to the ellipsoid only. 
 
+Note the following. 
+The initial oriantation of the sensor for each experiment is described in the paper. The corresponding quaternions were measured using the Yei sensor which provides that facility.
+
+Specifically for the field experiments:
+These are the time series as they occured 1 second after the release of the sensor up to the begining of the 10 second cesation as described in the paper. If the field timeseries are combine and rotated correclty, they recreate the histograms of Figure C1. 
+
+
+Finally note that part of the callibration for the derivation of linear acceration is the high-pass filtering as decribed in the 6th Chapter of the thesis:
+Maniatis, G.: Eulerian-Lagrangian definition of coarse bed-load transport: theory and verification with low-cost inertial measurement units,
+Ph.D. thesis, University of Glasgow, 2016.

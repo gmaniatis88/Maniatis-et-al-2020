@@ -9,7 +9,7 @@ There are two data sets:
 - The second corresponds to the field experiments pefromed in River Erlenbach (May 2018) and correspond to the ellipsoid only. 
 
 Notes: 
-- A lot of sensors have the facility for "on-board filtering" for deriving body frame linear accelerations. The model described in the paper starts a step before that in order to explain the physics of the accelerometer measurementin relation to sediment transport. Here the raw accelerormeter and gyroscope measurements are provided. For the accelerometer measurements this corresponds to body frame accelerations before gravity compensation (and corresponding callibration, see thesis Maniatis 2016, chapter 6). 
+- A lot of sensors have the facility for "on-board filtering" for deriving body frame linear accelerations. The model described in the paper starts a step before that in order to explain the physics of the accelerometer measurementin relation to sediment transport. Here, the raw accelerormeter and gyroscope measurements are provided. For the accelerometer measurements this corresponds to body frame accelerations before gravity compensation (and corresponding callibration, see thesis Maniatis 2016, chapter 6). 
 
 - The initial oriantation of the sensor for each experiment is described in the paper. The corresponding quaternions were measured using the Yei sensor which provides that facility (and includes a correction from the magnetometer deployed in the sensor, see sensor datasheet).
 

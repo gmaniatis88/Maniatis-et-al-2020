@@ -15,6 +15,8 @@ Notes:
 - For the field experiments, we provide the time series of the drag and lift forces as they occured 1 second after the release of the sensor and up to the begining of the 10 second cesation as described in the paper. 
 
 
-Thesis:
+References:
 Maniatis, G.: Eulerian-Lagrangian definition of coarse bed-load transport: theory and verification with low-cost inertial measurement units,
 Ph.D. thesis, University of Glasgow, 2016.
+
+Valenti, R.G., Dryanovski, I. and Xiao, J., 2015. Keeping a good attitude: A quaternion-based orientation filter for IMUs and MARGs. Sensors, 15(8), pp.19302-19330.

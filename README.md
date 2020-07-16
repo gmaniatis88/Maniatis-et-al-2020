@@ -9,12 +9,11 @@ There are two data sets:
 - The second corresponds to the field experiments pefromed in River Erlenbach (May 2018) and correspond to the ellipsoid only. 
 
 Notes: 
-- A lot of sensors have the facility for "on-board filtering" for deriving body frame linear accelerations. The model described in the paper starts a step before that in order to explain the physics of the accelerometer measurementin relation to sediment transport. Here, the raw accelerormeter and gyroscope measurements are provided. For the accelerometer measurements this corresponds to body frame accelerations before gravity compensation (and corresponding callibration, see thesis Maniatis 2016, chapter 6). 
+- A lot of sensors have the facility for "on-board filtering" for deriving body frame linear accelerations. The model described in the paper starts a step before that in order to explain the physics of the accelerometer measurementin relation to sediment transport. Here, for the laboratory experiments, raw accelerormeter and gyroscope measurements are provided. For the accelerometer measurements this corresponds to body frame accelerations before gravity compensation (and corresponding callibration, see thesis Maniatis 2016, chapter 6). 
 
-- The initial oriantation of the sensor for each experiment is described in the paper. The corresponding quaternions were measured using the Yei sensor which provides that facility (and includes a correction from the magnetometer deployed in the sensor, see sensor datasheet).
+- The initial oriantation of the sensor for each experiment is defined in the paper. The orientation quaternions were measured using the solution of  Valenti et al., 2015 for the b-i quaternion as defined in the paper (Appendix A1). In addition, the Yei sensor which provides that facility and includes a correction from the magnetometer deployed in the sensor. This was used to crosscompare the solution and define the noise threshold for the accelerometer. 
 
-Specifically for the field experiments:
-These are the time series as they occured 1 second after the release of the sensor up to the begining of the 10 second cesation as described in the paper. If the field timeseries are rotated correclty and combined to a single dataset, they recreate the histograms of Figure C1 in the paper. 
+- For the field experiments, we provide the time series of the drag and lift forces as they occured 1 second after the release of the sensor and up to the begining of the 10 second cesation as described in the paper. 
 
 
 Thesis:

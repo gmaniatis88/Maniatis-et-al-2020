@@ -1,5 +1,5 @@
 # Maniatis_et_al_2020
-In this repository you can find the data presented in the manuscript: Maniatis et al., 2020: "Inertial drag and lift forces for coarse grains on rough alluvial beds", Earth Surface Dynamic, currently in review.
+In this repository you can find the data presented in the manuscript: Maniatis et al.,: "Inertial drag and lift forces for coarse grains on rough alluvial beds measured using in-grain accelerometers", Earth Surface Dynamics, accepted in late 2020.
 
 There are two data sets:
 

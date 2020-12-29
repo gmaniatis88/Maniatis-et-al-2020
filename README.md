@@ -10,9 +10,9 @@ The second dataset corresponds to the field experiments performed in River Erlen
 
 Notes:
 
-A lot of sensors have the facility for "on-board filtering" for deriving body frame linear accelerations. The model described in the paper starts a step before that in order to explain the physics of the accelerometer measurement relation to sediment transport. In this context, the raw accelerometer measurements provided for the lab experiments are the body frame accelerations before gravity compensation (for relevant calibration, see thesis Maniatis 2016, chapter 6).
+- A lot of sensors have the facility for "on-board filtering" for deriving body frame linear accelerations. The model described in the paper starts a step before that in order to explain the physics of the accelerometer measurement relation to sediment transport. In this context, the raw accelerometer measurements provided for the lab experiments are the body frame accelerations before gravity compensation (for relevant calibration, see thesis Maniatis 2016, chapter 6).
 
-The initial oriantation of the sensor for each experiment is defined in the paper. The orientation quaternions were approximated using the auxiliary solution of Valenti et al., 2015 for the b-i quaternion as defined in the paper (Appendix A1). In addition, the Yei sensor which provides that facility and includes a correction from the magnetometer deployed in the sensor. This was used to cross-compare the solution and define the noise threshold for the accelerometer.
+- The initial oriantation of the sensor for each experiment is defined in the paper. The orientation quaternions were approximated using the auxiliary solution of Valenti et al., 2015 for the b-i quaternion as defined in the paper (Appendix A1). In addition, the Yei sensor which provides that facility and includes a correction from the magnetometer deployed in the sensor. This was used to cross-compare the solution and define the noise threshold for the accelerometer.
 
 References:
 
